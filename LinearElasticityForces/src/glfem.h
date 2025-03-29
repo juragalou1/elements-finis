@@ -28,6 +28,7 @@ void 		    glfemReshapeWindows(femNodes *theNodes, int width, int height);
 void 		    glfemPlotField(femMesh *theMesh, double *u);
 void 		    glfemPlotMesh(femMesh *theMesh);
 void            glfemPlotDomain(femDomain *theDomain);
+void         glfemPlotTensionField(femMesh *theMesh, double *u);
 
 void 		    glfemMessage(char *message);
 void 		    glfemDrawMessage(int h, int v, char *message);
